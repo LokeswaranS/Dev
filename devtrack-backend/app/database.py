@@ -4,3 +4,4 @@ MONGODB_URI = "mongodb+srv://user1:user1@cluster0.xmp4xsc.mongodb.net/admin?retr
 
 client = AsyncIOMotorClient(MONGODB_URI)
 db = client["devtrackdb"]
+
